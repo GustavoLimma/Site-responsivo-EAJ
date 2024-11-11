@@ -1,0 +1,101 @@
+/* Estilo para dispositivos móveis */
+
+@media all and (max-width: 880px) {
+    
+    .imagee{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo {
+        text-indent: 2px;
+        background-color: #013c29;
+        border-radius: 2px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .footerCont {
+        background-color: #013c29;
+        color: white;
+        display: block;
+        padding: 1cm;
+        text-align: center;
+        margin-top: 0; 
+        height: auto; 
+    }
+
+    hr {
+        margin: 0;
+        border: 0.05cm solid yellowgreen;
+    }
+
+    .txteaj{
+        font-size: 10px;
+    }
+    
+    h2{
+        margin-bottom: 0%;
+    }
+
+    .tit{
+        font-size: 15px;
+    }
+}
+
+/* Estilo para computadores */
+@media only screen and (min-width: 900px){
+.container {
+    margin-right: 5cm;
+    margin-left: 5cm;
+}
+
+.titulo {
+    text-indent: 2px;
+    background-color: #013c29;
+    border-radius: 2px;
+    color: white;
+}
+
+.imageee{
+    text-align: center;
+}
+
+.txteaj{
+    font-size: 20px;
+}
+
+.footerCont {
+    color: white;
+    background-color: #013c29;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 1cm;
+    height: 3cm;
+    margin-top: 0%;
+}
+
+.right{
+    margin-right: 5cm;
+    margin-bottom: 1cm;
+}
+
+.left{
+    margin-left: 5cm ;
+    margin-top: 1cm;
+}
+
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 2px solid greenyellow;
+}
+
+h2{
+    margin-bottom: 0%;
+}
+
+}
